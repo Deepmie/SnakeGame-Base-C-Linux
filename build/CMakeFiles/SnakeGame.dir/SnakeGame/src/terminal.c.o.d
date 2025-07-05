@@ -1,5 +1,5 @@
 CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o: \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/src/terminal.c \
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/terminal.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -49,4 +49,4 @@ CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/include/terminal.h
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/include/terminal.h

@@ -390,8 +390,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/deepmiemie/Proj/CProj/C/build",
-		"source" : "/home/deepmiemie/Proj/CProj/C"
+		"build" : "/home/deepmiemie/Proj/CProj/SnakeGame/build",
+		"source" : "/home/deepmiemie/Proj/CProj/SnakeGame"
 	},
 	"version" : 
 	{

@@ -1,5 +1,6 @@
-CMakeFiles/SnakeGame.dir/main.c.o: /home/deepmiemie/Proj/CProj/C/main.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+CMakeFiles/SnakeGame.dir/main.c.o: \
+ /home/deepmiemie/Proj/CProj/SnakeGame/main.c /usr/include/stdc-predef.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -59,7 +60,7 @@ CMakeFiles/SnakeGame.dir/main.c.o: /home/deepmiemie/Proj/CProj/C/main.c \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/include/board.h \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/include/helper.h \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/include/snake.h \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/include/terminal.h
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/include/board.h \
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/include/helper.h \
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/include/snake.h \
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/include/terminal.h

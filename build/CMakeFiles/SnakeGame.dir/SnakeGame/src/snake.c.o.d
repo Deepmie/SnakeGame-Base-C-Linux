@@ -1,7 +1,7 @@
 CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o: \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/src/snake.c \
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/snake.c \
  /usr/include/stdc-predef.h \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/include/snake.h \
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/include/snake.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -50,5 +50,5 @@ CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/include/helper.h \
- /home/deepmiemie/Proj/CProj/C/SnakeGame/include/board.h
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/include/helper.h \
+ /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/include/board.h

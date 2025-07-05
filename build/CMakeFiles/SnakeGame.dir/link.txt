@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o CMakeFiles/SnakeGame.dir/main.c.o -o SnakeGame 
+/usr/bin/gcc -g CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o CMakeFiles/SnakeGame.dir/main.c.o -o SnakeGame 

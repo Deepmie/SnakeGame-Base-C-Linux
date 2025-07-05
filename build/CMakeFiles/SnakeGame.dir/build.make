@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/deepmiemie/Proj/CProj/C
+CMAKE_SOURCE_DIR = /home/deepmiemie/Proj/CProj/SnakeGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/deepmiemie/Proj/CProj/C/build
+CMAKE_BINARY_DIR = /home/deepmiemie/Proj/CProj/SnakeGame/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SnakeGame.dir/depend.make
@@ -72,72 +72,72 @@ include CMakeFiles/SnakeGame.dir/flags.make
 CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o: CMakeFiles/SnakeGame.dir/flags.make
 CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o: ../SnakeGame/src/board.c
 CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o -MF CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o.d -o CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o -c /home/deepmiemie/Proj/CProj/C/SnakeGame/src/board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/SnakeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o -MF CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o.d -o CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o -c /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/board.c
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/C/SnakeGame/src/board.c > CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/board.c > CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.i
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/C/SnakeGame/src/board.c -o CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/board.c -o CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.s
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o: CMakeFiles/SnakeGame.dir/flags.make
 CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o: ../SnakeGame/src/helper.c
 CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o -MF CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o.d -o CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o -c /home/deepmiemie/Proj/CProj/C/SnakeGame/src/helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/SnakeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o -MF CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o.d -o CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o -c /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/helper.c
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/C/SnakeGame/src/helper.c > CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/helper.c > CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.i
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/C/SnakeGame/src/helper.c -o CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/helper.c -o CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.s
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o: CMakeFiles/SnakeGame.dir/flags.make
 CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o: ../SnakeGame/src/snake.c
 CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o -MF CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o.d -o CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o -c /home/deepmiemie/Proj/CProj/C/SnakeGame/src/snake.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/SnakeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o -MF CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o.d -o CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o -c /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/snake.c
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/C/SnakeGame/src/snake.c > CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/snake.c > CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.i
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/C/SnakeGame/src/snake.c -o CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/snake.c -o CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.s
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o: CMakeFiles/SnakeGame.dir/flags.make
 CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o: ../SnakeGame/src/terminal.c
 CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o -MF CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o.d -o CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o -c /home/deepmiemie/Proj/CProj/C/SnakeGame/src/terminal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/SnakeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o -MF CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o.d -o CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o -c /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/terminal.c
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/C/SnakeGame/src/terminal.c > CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/terminal.c > CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.i
 
 CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/C/SnakeGame/src/terminal.c -o CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/SnakeGame/SnakeGame/src/terminal.c -o CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.s
 
 CMakeFiles/SnakeGame.dir/main.c.o: CMakeFiles/SnakeGame.dir/flags.make
 CMakeFiles/SnakeGame.dir/main.c.o: ../main.c
 CMakeFiles/SnakeGame.dir/main.c.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SnakeGame.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/main.c.o -MF CMakeFiles/SnakeGame.dir/main.c.o.d -o CMakeFiles/SnakeGame.dir/main.c.o -c /home/deepmiemie/Proj/CProj/C/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepmiemie/Proj/CProj/SnakeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SnakeGame.dir/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/main.c.o -MF CMakeFiles/SnakeGame.dir/main.c.o.d -o CMakeFiles/SnakeGame.dir/main.c.o -c /home/deepmiemie/Proj/CProj/SnakeGame/main.c
 
 CMakeFiles/SnakeGame.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/C/main.c > CMakeFiles/SnakeGame.dir/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepmiemie/Proj/CProj/SnakeGame/main.c > CMakeFiles/SnakeGame.dir/main.c.i
 
 CMakeFiles/SnakeGame.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/C/main.c -o CMakeFiles/SnakeGame.dir/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepmiemie/Proj/CProj/SnakeGame/main.c -o CMakeFiles/SnakeGame.dir/main.c.s
 
 # Object files for target SnakeGame
 SnakeGame_OBJECTS = \
@@ -157,7 +157,7 @@ SnakeGame: CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o
 SnakeGame: CMakeFiles/SnakeGame.dir/main.c.o
 SnakeGame: CMakeFiles/SnakeGame.dir/build.make
 SnakeGame: CMakeFiles/SnakeGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deepmiemie/Proj/CProj/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable SnakeGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deepmiemie/Proj/CProj/SnakeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable SnakeGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SnakeGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/SnakeGame.dir/clean:
 .PHONY : CMakeFiles/SnakeGame.dir/clean
 
 CMakeFiles/SnakeGame.dir/depend:
-	cd /home/deepmiemie/Proj/CProj/C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/deepmiemie/Proj/CProj/C /home/deepmiemie/Proj/CProj/C /home/deepmiemie/Proj/CProj/C/build /home/deepmiemie/Proj/CProj/C/build /home/deepmiemie/Proj/CProj/C/build/CMakeFiles/SnakeGame.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/deepmiemie/Proj/CProj/SnakeGame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/deepmiemie/Proj/CProj/SnakeGame /home/deepmiemie/Proj/CProj/SnakeGame /home/deepmiemie/Proj/CProj/SnakeGame/build /home/deepmiemie/Proj/CProj/SnakeGame/build /home/deepmiemie/Proj/CProj/SnakeGame/build/CMakeFiles/SnakeGame.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SnakeGame.dir/depend
 
