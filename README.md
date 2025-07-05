@@ -24,4 +24,22 @@ if (c == 'q')
 }
 ```
 
-初始默认有一条红色的长度为三的蛇，局中有三个苹果。您可以调整参数以修改这些值。希望能帮助到同为C语言项目的初学者。
+初始默认有一条红色的长度为三的蛇，局中有三个苹果，对应main.c的这部分代码：
+```c
+srand(time(NULL)); // 设定随机种子.
+Face **board;
+Snake s;
+Apple apple;
+int m = 10, n = 10; // 初始地图大小
+int size = 3; // 初始长度.
+char d = 'w'; // 初始方向.
+int stand_appnum = 3; // 标准的苹果数量.
+
+Position p1 = {m-3, n-1};
+Position p2 = {m-2, n-1};
+Position p3 = {m-1, n-1};
+Position *p = malloc(3 * sizeof(Position)); // 蛇的初始位置.
+p[0] = p1; p[1] = p2; p[2] = p3;
+```
+
+您可以调整参数以修改这些值以获得更好的游戏体验。希望能帮助到同为C语言项目的初学者。

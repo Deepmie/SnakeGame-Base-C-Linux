@@ -12,7 +12,7 @@ void main(){
     Face **board;
     Snake s;
     Apple apple;
-    int m = 10, n = 10;
+    int m = 10, n = 10; // 初始地图大小
     int size = 3; // 初始长度.
     char d = 'w'; // 初始方向.
     int stand_appnum = 3; // 标准的苹果数量.
