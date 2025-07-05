@@ -10,7 +10,7 @@
 
 贪吃蛇游戏的实际界面:
 
-![演示动画](./src/demo.gif)
+<img src="src/demo.gif" alt="演示动画" width="200">
 
 您可以键入'q'键开始游戏，对应main.c的这部分代码:
 ```c
