@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/deepmiemie/Proj/CProj/C/build",
+  "command": "/usr/bin/cc  -I/home/deepmiemie/Proj/CProj/C/SnakeGame/include -g -o CMakeFiles/SnakeGame.dir/SnakeGame/src/board.c.o -c /home/deepmiemie/Proj/CProj/C/SnakeGame/src/board.c",
+  "file": "/home/deepmiemie/Proj/CProj/C/SnakeGame/src/board.c"
+},
+{
+  "directory": "/home/deepmiemie/Proj/CProj/C/build",
+  "command": "/usr/bin/cc  -I/home/deepmiemie/Proj/CProj/C/SnakeGame/include -g -o CMakeFiles/SnakeGame.dir/SnakeGame/src/helper.c.o -c /home/deepmiemie/Proj/CProj/C/SnakeGame/src/helper.c",
+  "file": "/home/deepmiemie/Proj/CProj/C/SnakeGame/src/helper.c"
+},
+{
+  "directory": "/home/deepmiemie/Proj/CProj/C/build",
+  "command": "/usr/bin/cc  -I/home/deepmiemie/Proj/CProj/C/SnakeGame/include -g -o CMakeFiles/SnakeGame.dir/SnakeGame/src/snake.c.o -c /home/deepmiemie/Proj/CProj/C/SnakeGame/src/snake.c",
+  "file": "/home/deepmiemie/Proj/CProj/C/SnakeGame/src/snake.c"
+},
+{
+  "directory": "/home/deepmiemie/Proj/CProj/C/build",
+  "command": "/usr/bin/cc  -I/home/deepmiemie/Proj/CProj/C/SnakeGame/include -g -o CMakeFiles/SnakeGame.dir/SnakeGame/src/terminal.c.o -c /home/deepmiemie/Proj/CProj/C/SnakeGame/src/terminal.c",
+  "file": "/home/deepmiemie/Proj/CProj/C/SnakeGame/src/terminal.c"
+},
+{
+  "directory": "/home/deepmiemie/Proj/CProj/C/build",
+  "command": "/usr/bin/cc  -I/home/deepmiemie/Proj/CProj/C/SnakeGame/include -g -o CMakeFiles/SnakeGame.dir/main.c.o -c /home/deepmiemie/Proj/CProj/C/main.c",
+  "file": "/home/deepmiemie/Proj/CProj/C/main.c"
+}
+]

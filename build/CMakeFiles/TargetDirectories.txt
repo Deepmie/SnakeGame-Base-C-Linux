@@ -1,0 +1,3 @@
+/home/deepmiemie/Proj/CProj/C/build/CMakeFiles/SnakeGame.dir
+/home/deepmiemie/Proj/CProj/C/build/CMakeFiles/edit_cache.dir
+/home/deepmiemie/Proj/CProj/C/build/CMakeFiles/rebuild_cache.dir
